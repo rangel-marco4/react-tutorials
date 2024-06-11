@@ -1,0 +1,9 @@
+How the project is set up
+1. start with creating server and client directories
+2. then start initializing the server folder by going into that directory, then first running `npm init -y` to answer yes to all questions and to generate 
+a `package.json` file
+3. next, install express by then running `npm i express`
+4. then, install nodemon `npm i nodemon -D` so that if any changes within our server file, it will auto refresh the server. The -D says that nodemon is
+a devDependency
+5. then, we add some scripts to the `scripts`, we'll add `"start": "node server", "dev": "nodemon server",` 
+6. next, move on to client directory, then create the react app by running `npx create-react-app nameOfApp`
